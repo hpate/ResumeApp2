@@ -1,0 +1,181 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Resume">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="125px"
+            android:id="@+id/imageView"
+            android:src="@drawable/usflogo"
+            />
+
+        <TextView
+            android:text="@string/name"
+            android:id="@+id/name"
+            style="@style/name" />
+
+
+        <TextView
+            android:text="Contact Info"
+            android:id="@+id/contactTitle"
+            style="@style/sectionTitle" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            style="@style/contentHolder">
+            <TextView
+                android:text="@string/address"
+                android:id="@+id/address"
+                style="@style/content" />
+
+            <TextView
+                android:text="@string/email"
+                android:id="@+id/email"
+                style="@style/content" />
+
+            <TextView
+                android:text="@string/phone"
+                android:id="@+id/phone"
+                style="@style/content" />
+        </LinearLayout>
+
+
+        <TextView
+            android:text="Education"
+            android:id="@+id/eduTitle"
+            style="@style/sectionTitle" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            style="@style/contentHolder">
+            <TextView
+                android:text="@string/degreename"
+                android:id="@+id/degreename"
+                style="@style/content" />
+
+            <TextView
+                android:text="@string/college"
+                android:id="@+id/college"
+                style="@style/content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Graduation Date: "
+                    android:id="@+id/graddateTitle"
+                    style="@style/content" />
+
+                <TextView
+                    android:text="@string/graddate"
+                    android:id="@+id/graddate"
+                    style="@style/content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="GPA: "
+                    android:id="@+id/gpaTitle"
+                    style="@style/content" />
+
+                <TextView
+                    android:text="@string/gpa"
+                    android:id="@+id/gpa"
+                    style="@style/content" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:text="Work Experience"
+            android:id="@+id/workTitle"
+            style="@style/sectionTitle" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            style="@style/contentHolder">
+            <TextView
+                android:text="@string/position1"
+                android:id="@+id/position1"
+                style="@style/itemName" />
+
+            <TextView
+                android:text="@string/company1"
+                android:id="@+id/company1"
+                style="@style/content" />
+
+            <TextView
+                android:text="@string/dates1"
+                android:id="@+id/dates1"
+                style="@style/content" />
+
+            <TextView
+                android:text="@string/position2"
+                android:id="@+id/position2"
+                style="@style/itemName" />
+
+            <TextView
+                android:text="@string/company2"
+                android:id="@+id/company2"
+                style="@style/content" />
+
+            <TextView
+                android:text="@string/dates2"
+                android:id="@+id/dates2"
+                style="@style/content" />
+
+            <TextView
+                android:text="@string/position3"
+                android:id="@+id/position3"
+                style="@style/itemName" />
+
+            <TextView
+                android:text="@string/company3"
+                android:id="@+id/company3"
+                style="@style/content" />
+
+            <TextView
+                android:text="@string/dates3"
+                android:id="@+id/dates3"
+                style="@style/content" />
+        </LinearLayout>
+
+
+        <TextView
+            android:text="Extracurricular Activities"
+            android:id="@+id/activitiesTitle"
+            style="@style/sectionTitle" />
+
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/activitiesList" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="Contact me on LinkedIn"
+            android:id="@+id/linkedin" />
+
+    </LinearLayout>
+
+</ScrollView>
