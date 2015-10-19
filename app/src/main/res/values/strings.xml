@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">HannahResume</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Contact Info-->
+    <string name="name">Hannah Pate</string>
+    <string name="address">15501 Bruce B Downs Blvd Tampa, Fl 33647</string>
+    <string name="email">hpate@mail.usf.edu</string>
+    <string name="phone">(850) 516-7262</string>
+    <!-- -->
+
+    <!--Education Info-->
+    <string name="degreename">B.S. in Computer Science</string>
+    <string name="college">University of South Florida</string>
+    <string name="graddate">Dec 2015</string>
+    <string name="gpa">3.32/4.0</string>
+    <!-- -->
+
+    <!--Work Experience-->
+    <string name="position1">Summer Technology Analyst</string>
+    <string name="company1">JP Morgan Chase</string>
+    <string name="dates1">June 2015 to August 2015</string>
+
+    <string name="position2">Database Analyst Intern</string>
+    <string name="company2">Bright House Networks</string>
+    <string name="dates2">May 2014 to August 2014</string>
+
+    <string name="position3">President</string>
+    <string name="company3">Association for Computing Machinery, USF Chapter</string>
+    <string name="dates3">January 2014 to present</string>
+    <!-- -->
+
+    <!--Extracurricular Activities-->
+    <string name="clubs">Association for Computing Machinery, Microsoft Development Network, Women in Computer Science and Engineering</string>
+    <string name="title_activity_resume">Resume</string>
+    <!-- -->
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="activities">
+        <item>Association for Computing Machinery</item>
+        <item>Microsoft Developers Network</item>
+        <item>MIS Society</item>
+    </array>
+
+</resources>
+
